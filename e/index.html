@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atar Agro</title>
+
+    <style>
+* {margin: 0;padding: 0;box-sizing: border-box;}body {overflow-x: hidden;}.hero {padding-top: 18px;padding-bottom: 29px;}.hero__container {max-width: 390px;margin-left: auto;margin-right: auto;padding: 0 10px;position: relative;}.hero__top {display: flex;align-items: center;justify-content: space-between;background-color: #EEEEEE;border: 1px solid #D3D3D3;border-radius: 10px;padding: 14px 15px;margin-bottom: 15px;}.hero__top__min {display: flex;align-items: center;justify-content: center;gap: 7px;}.hero__top__min p {font-family: Montserrat, sans-serif;font-weight: 500;font-size: 14px;line-height: 100%;text-align: center;}.hero__top__title {font-family: Montserrat, sans-serif;font-weight: 500;font-size: 16px;line-height: 100%;text-align: center;}.hero__main {background-image: url(./images/main.avif);background-repeat: no-repeat;background-size: cover;background-position: center;border-radius: 20px;background-color: #00000080;padding: 12px;margin-bottom: 8px;}.hero__title {font-family: Kuunari, sans-serif;font-weight: 700;font-size: clamp(29px, 9vw, 32px);line-height: 110%;text-transform: uppercase;color: white;margin-bottom: 97px;}.hero__title span {color: #FFC300;}.hero__main__text {font-family: Inter, sans-serif;font-weight: 500;font-style: Italic;font-size: clamp(14px, 4.5vw, 16px);line-height: 114%;color: white;}.timer {font-family: Kuunari, sans-serif;font-weight: 700;font-size: 26px;line-height: 100%;text-align: center;margin-bottom: 8px;}.hero__btn {background: linear-gradient(90deg, #FF2119 0%, #FF443C 49.68%, #FF2119 100%);box-shadow: 0px 4px 4px 0px #FFFFFF40 inset;box-shadow: 4px 0px 4px 0px #FFFFFF40 inset;box-shadow: -4px 0px 4px 0px #FFFFFF40 inset;box-shadow: 0px 4px 0px 0px #BE0700;box-shadow: 0px 4px 20px 0px #FF211980;border-radius: 100px;max-width: 319px;width: 100%;padding: 27px 0;font-family: Inter, sans-serif;font-weight: 700;font-size: 18px;line-height: 110%;text-align: center;color: white;display: block;text-decoration: none;cursor: pointer;border: none;margin: 0 auto;}.hero__thoughts {margin-bottom: 25px;position: relative;}.hero__thoughts__title {font-family: Kuunari, sans-serif;font-weight: 700;font-size: 32px;line-height: 110%;text-transform: uppercase;margin-bottom: 15px;text-align: center;}.hero__thoughts__img {margin: 0 auto;display: flex;justify-content: center;}.hero__thoughts__icon {position: absolute;top: 190px;cursor: pointer;}.description {padding-bottom: 29px;}.description__title {font-family: Kuunari, sans-serif;font-weight: 700;font-size: 32px;line-height: 110%;text-align: center;text-transform: uppercase;margin-bottom: 10px;}.description__row {display: flex;flex-direction: column;gap: 12px;max-width: 343px;width: 100%;justify-content: center;margin: 0 auto;}.description__col {border-radius: 24px;background-color: #EEEEEE;padding: 16px;}.description__col__min {background-color: #137363;border-radius: 12px;max-width: 48px;width: 100%;margin-bottom: 12px;height: 48px;display: flex;align-items: center;justify-content: center;}.description__col p {font-family: Inter, sans-serif;font-weight: 400;font-size: 16px;line-height: 130%;}
+    </style>
+
+    <link rel="stylesheet" href="./css/main.css" media="print" onload="this.media='all'" />
+    <noscript>
+        <link rel="stylesheet" href="./css/main.css" />
+    </noscript>
+</head>
+
+<body>
+
+    <section class="hero">
+        <div class="hero__container">
+            <div class="hero__top">
+                <div class="hero__top__min">
+                    <img src="./images/calendar.png" loading="lazy" decoding="async" width="14" height="15"
+                        alt="calendar">
+                    <p>23-Fevral | 20:00</p>
+                </div>
+
+                <p class="hero__top__title">Onlayn taqdimot</p>
+            </div>
+
+
+            <div class="hero__main">
+                <h1 class="hero__title">Endi dalada <span>odam emas, <br>
+                        texnologiya</span> ishlaydi!</h1>
+                <p class="hero__main__text">Avtopilot uskunamiz orqali bir mavsumda <br> 200 mln so’mgacha daromad
+                    qiling</p>
+            </div>
+
+            <div class="timer" id="timer">02:00</div>
+
+            <a class="hero__btn" href="#" style="margin-bottom: 25px;">
+                Ko‘proq ma’lumot olish
+            </a>
+
+
+            <div class="hero__thoughts">
+                <h2 class="hero__thoughts__title">Mijozimiz fikrlari</h2>
+
+                <div class="hero__thoughts__img">
+                    <img src="./images/images.avif" loading="lazy" decoding="async" width="223" height="321"
+                        alt="images">
+                        <img class="hero__thoughts__icon" src="./images/play.png" loading="lazy" decoding="async" width="30"
+                        height="30" alt="play icon">
+                    </div>
+            </div>
+
+            <div class="description">
+                <h2 class="description__title">onlayn taqdimotda nimalarni o’rganasiz</h2>
+
+                <div class="description__row">
+                    <div class="description__col">
+                        <div class="description__col__min">
+                            <img src="./images/info/1.png" loading="lazy" decoding="async" width="32" height="32"
+                                alt="icon">
+                        </div>
+                        <p>Traktoringiz endi <b>kechasi</b> ham <br> <b>xatosiz ishlaydi</b></p>
+                    </div>
+                    <div class="description__col">
+                        <div class="description__col__min">
+                            <img src="./images/info/2.png" loading="lazy" decoding="async" width="32" height="32"
+                                alt="icon">
+                        </div>
+                        <p>Traktoringiz tekis haydashi orqali <br> daromadingizni <b>2 barobargacha <br>
+                                oshirasiz</b>
+                        </p>
+                    </div>
+                    <div class="description__col">
+                        <div class="description__col__min">
+                            <img src="./images/info/3.png" loading="lazy" decoding="async" width="32" height="32"
+                                alt="icon">
+                        </div>
+                        <p><b>2 ta traktor</b> qiladigan ishni <br>
+                            <b>1 ta traktorda qilasiz</b>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <a class="hero__btn" href="#" style="max-width: 356px; width: 100%;">
+                Vebinarda bepul qatnashish
+            </a>
+        </div>
+    </section>
+
+
+    <script defer src="../js/app.js"></script>
+</body>
+
+</html>
